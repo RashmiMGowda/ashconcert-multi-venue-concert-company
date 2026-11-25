@@ -1,0 +1,22 @@
+{
+  "name": "ashconcert-company",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev --workspace @ashconcert/server\" \"npm:dev --workspace @ashconcert/client\"",
+    "build": "npm run build --workspace @ashconcert/client",
+    "start": "npm run start --workspace @ashconcert/server",
+    "test": "npm test --workspace @ashconcert/server"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

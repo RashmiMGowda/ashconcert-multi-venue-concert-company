@@ -1,0 +1,112 @@
+{
+  "venues": [
+    { "id": 104, "name": "Toyota Music Factory Pavilion", "city": "Irving", "state": "TX", "type": "Amphitheater", "capacity": 8000, "street": "86252 Fisher Skyway" },
+    { "id": 112, "name": "Radio City Music Hall", "city": "New York", "state": "NY", "type": "Theater", "capacity": 6000, "street": "5513 Jeremy Flat Suite 379" },
+    { "id": 128, "name": "Footprint Center", "city": "Phoenix", "state": "AZ", "type": "Arena", "capacity": 18000, "street": "71881 Julie Mountains Suite 143" },
+    { "id": 136, "name": "Little Caesars Arena", "city": "Detroit", "state": "MI", "type": "Arena", "capacity": 20000, "street": "8364 Goodwin Parks Suite 952" },
+    { "id": 103, "name": "American Airlines Center", "city": "Dallas", "state": "TX", "type": "Arena", "capacity": 20000, "street": "8657 Ward Gateway" },
+    { "id": 102, "name": "Dickies Arena", "city": "Fort Worth", "state": "TX", "type": "Arena", "capacity": 14000, "street": "6281 Castro Springs" }
+  ],
+  "events": [
+    {
+      "id": 2040,
+      "title": "Norah Jones: Live in Concert",
+      "artist": "Norah Jones",
+      "genre": "Jazz",
+      "date": "2026-12-12",
+      "time": "19:30",
+      "ageRestriction": 0,
+      "venueId": 104,
+      "image": "photo-1514525253161-7a46d19cd819",
+      "accent": "plum",
+      "tickets": [
+        { "id": 7040, "name": "Lawn GA Admission", "type": "General Admission", "description": "Open-air lawn access, first come first served", "price": 70 },
+        { "id": 7041, "name": "Reserved Pavilion", "type": "Reserved", "description": "A reserved seat with a clear view of the stage", "price": 110 },
+        { "id": 7042, "name": "Pavilion Premium", "type": "Premium", "description": "Premium seat with early venue entry", "price": 150 }
+      ]
+    },
+    {
+      "id": 2041,
+      "title": "Noah Kahan: Live in Concert",
+      "artist": "Noah Kahan",
+      "genre": "Indie folk",
+      "date": "2027-01-23",
+      "time": "21:00",
+      "ageRestriction": 0,
+      "venueId": 112,
+      "image": "photo-1459749411175-04bf5292ceea",
+      "accent": "blue",
+      "tickets": [
+        { "id": 7043, "name": "Balcony Reserved", "type": "Reserved", "description": "An assigned seat in the upper balcony", "price": 75 },
+        { "id": 7044, "name": "Orchestra Reserved", "type": "Reserved", "description": "An assigned seat close to the stage", "price": 125 }
+      ]
+    },
+    {
+      "id": 2042,
+      "title": "Arctic Monkeys: Live",
+      "artist": "Arctic Monkeys",
+      "genre": "Alternative",
+      "date": "2027-02-14",
+      "time": "15:30",
+      "ageRestriction": 16,
+      "venueId": 128,
+      "image": "photo-1501386761578-eac5c94b800a",
+      "accent": "orange",
+      "tickets": [
+        { "id": 7045, "name": "Floor GA Admission", "type": "General Admission", "description": "Standing floor access, first come first served", "price": 85 },
+        { "id": 7046, "name": "Lower Bowl Reserved", "type": "Reserved", "description": "An assigned seat in the lower bowl", "price": 145 },
+        { "id": 7047, "name": "VIP Experience", "type": "VIP", "description": "Premium seating and early venue entry", "price": 325 }
+      ]
+    },
+    {
+      "id": 2043,
+      "title": "Beyoncé: Summer Nights Tour",
+      "artist": "Beyoncé",
+      "genre": "Pop & R&B",
+      "date": "2027-03-06",
+      "time": "19:30",
+      "ageRestriction": 0,
+      "venueId": 136,
+      "image": "photo-1506157786151-b8491531f063",
+      "accent": "rose",
+      "tickets": [
+        { "id": 7048, "name": "Floor GA Admission", "type": "General Admission", "description": "Standing floor access, first come first served", "price": 95 },
+        { "id": 7049, "name": "Lower Bowl Reserved", "type": "Reserved", "description": "An assigned seat in the lower bowl", "price": 165 },
+        { "id": 7050, "name": "VIP Box Experience", "type": "VIP", "description": "Private box seating and lounge access", "price": 425 }
+      ]
+    },
+    {
+      "id": 2044,
+      "title": "Luke Combs: Encore Tour",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "date": "2027-03-27",
+      "time": "20:30",
+      "ageRestriction": 16,
+      "venueId": 103,
+      "image": "photo-1501612780327-45045538702b",
+      "accent": "gold",
+      "tickets": [
+        { "id": 7051, "name": "Floor GA Admission", "type": "General Admission", "description": "Standing floor access, first come first served", "price": 85 },
+        { "id": 7052, "name": "Lower Bowl Reserved", "type": "Reserved", "description": "An assigned seat in the lower bowl", "price": 140 }
+      ]
+    },
+    {
+      "id": 2045,
+      "title": "Post Malone: Live in Concert",
+      "artist": "Post Malone",
+      "genre": "Hip-hop",
+      "date": "2027-04-17",
+      "time": "19:00",
+      "ageRestriction": 18,
+      "venueId": 102,
+      "image": "photo-1470229722913-7c0e2dbbafd3",
+      "accent": "teal",
+      "tickets": [
+        { "id": 7053, "name": "Floor GA Admission", "type": "General Admission", "description": "Standing floor access, first come first served", "price": 75 },
+        { "id": 7054, "name": "Lower Bowl Reserved", "type": "Reserved", "description": "An assigned seat in the lower bowl", "price": 125 },
+        { "id": 7055, "name": "VIP Experience", "type": "VIP", "description": "Premium seat and early venue entry", "price": 300 }
+      ]
+    }
+  ]
+}

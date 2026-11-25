@@ -1,0 +1,14 @@
+{
+  "name": "@ashconcert/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.mjs",
+    "start": "node index.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
